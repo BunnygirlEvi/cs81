@@ -1,2 +1,3 @@
-** SMC
-** CS 81, JavaScript Programming
+**SMC**
+
+**CS 81, JavaScript Programming**
