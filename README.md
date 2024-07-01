@@ -8,8 +8,14 @@
 
 - [Module 2 - assignment 2B](https://bunnygirlevi.github.io/cs81/2B/)
 
-- [Module 3 - assignment 3A](https://bunnygirlevi.github.io/cs81/3A/)
+- [Module 3 - assignment 3A](https://bunnygirlevi.github.io/cs81/3A/main.js)
 
-- [Module 3 - assignment 3B](https://bunnygirlevi.github.io/cs81/3B/)
+- [Module 3 - assignment 3B](https://bunnygirlevi.github.io/cs81/3B/main.js)
 
-- [Module 3 - assignment 3C](https://bunnygirlevi.github.io/cs81/3C/)
+- [Module 3 - assignment 3C](https://bunnygirlevi.github.io/cs81/3C/main.js)
+
+- [Module 4 - assignment 3A](https://bunnygirlevi.github.io/cs81/4A/main.js)
+
+- [Module 4 - assignment 3B](https://bunnygirlevi.github.io/cs81/4B/main.js)
+
+- [Module 4 - assignment 3C](https://bunnygirlevi.github.io/cs81/4C/main.js)
