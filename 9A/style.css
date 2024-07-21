@@ -1,0 +1,17 @@
+#mountains table {
+  background-color: #ccccc9;
+}
+#mountains table tr:nth-child(odd) {
+  background-color: #e3e3e1;
+}
+#mountains table tr:nth-child(even) {
+  background-color: #fff;
+}
+
+#mountains table td,
+#mountains table th {
+  padding: 5px;
+  min-width: 70px;
+  font-family: Helvetica;
+  font-size: 15px;
+}
