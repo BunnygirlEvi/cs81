@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head> </head>
+  <body>
+    <script>
+      const balloon = document.createElement("p");
+      balloon.style.textAlign = "center";
+      let fontSize = 20;
+      balloon.style.fontSize = fontSize;
+      document.body.appendChild(balloon);
+      const balloonEmoji = document.createTextNode("🎈");
+      balloon.appendChild(balloonEmoji);
+      const explodeEmoji = document.createTextNode("💥");
+
+      const handleKeyDown = (event) => {
+        event.preventDefault();
+        if (fontSize === 150) {
+          balloon.replaceChild(explodeEmoji, balloonEmoji);
+          fontSize = 300;
+          balloon.style.fontSize = fontSize + "px";
+          window.removeEventListener("keydown", handleKeyDown);
+        }
+        if (event.key == "ArrowUp") {
+          console.log("this works up");
+          console.log(fontSize);
+          balloon.style.fontSize = fontSize + "px";
+          fontSize += 2;
+        }
+        if (event.key == "ArrowDown") {
+          console.log("this works down");
+          console.log(fontSize);
+          balloon.style.fontSize = fontSize + "px";
+          fontSize -= 2;
+        }
+      };
+
+      window.addEventListener("keydown", handleKeyDown);
+    </script>
+  </body>
+</html>
