@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="header-wrapper">
+      <h1 id="header">Morse Code Translator</h1>
+      <audio src="./morse-dot.mov" id="sound1"></audio>
+      <audio src="./morse-dash.mov" id="sound2"></audio>
+      <audio src="./morse-blank.mov" id="sound3"></audio>
+    </div>
+    <div id="main-wrapper">
+      <hr />
+      <br />
+      <h5 id="error"></h5>
+      <br />
+      <div id="wrapper">
+        <textarea
+          placeholder="Type morse code with . or -, or type words."
+          rows="10"
+          cols="40"
+          id="text-inputer"
+          class="text-areas"
+        ></textarea>
+        <div id="answer-holder" class="text-areas"></div>
+      </div>
+      <br />
+      <br />
+      <button onclick="playSound()" id="play-button" class="button">▶</button>
+      <button onclick="pauseSound()" id="pause-button" class="button">X</button>
+      <br />
+      <br />
+      <br />
+      <br />
+      <div id="game-div">
+        <h2>Translator Game</h2>
+        <hr />
+        <br />
+        <h3 id="question-holder">Translate:</h3>
+        <br />
+        <h3 id="text-result"></h3>
+        <br />
+        <input id="game-answer" placeholder="Answer:" /><br />
+        <br />
+        <button id="submit-button" onclick="submit()">Submit</button>
+        <button id="change-button" onclick="change()">Change Question</button>
+        <br />
+        <br />
+        <button id="answer-button" onclick="answer()">Show Answer</button>
+      </div>
+      <p id="instructions">
+        Welcome to the Morse Code Translator! This was made by Evelin Boghozyan.
+        <br />
+        You can type words or morse code into the text area, and you can push
+        the play button to hear the morse code, and the stop button to stop
+        it.<br />
+        There is a game function where you are asked to translate morse code
+        into words, and there are 5 possible questions that can be asked.<br />
+        If playing the game, please type your answers in correct grammar without
+        commas and periods. <br />
+        Every answer is only 1 sentence long. <br />
+        Use / as spaces and spaces between letters when typing in morse code for
+        the translator. <br />
+        Symbols and newlines will be ignored.
+      </p>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
