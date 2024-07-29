@@ -23,3 +23,5 @@
 - [Module 5 - assignment 3A](https://bunnygirlevi.github.io/cs81/5A/main.js)
 
 - [Module 5 - assignment 3B](https://bunnygirlevi.github.io/cs81/5B/main.js)
+
+-[Final Project](https://bunnygirlevi.github.io/cs81/FinalProject)
