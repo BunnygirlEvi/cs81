@@ -24,4 +24,4 @@
 
 - [Module 5 - assignment 3B](https://bunnygirlevi.github.io/cs81/5B/main.js)
 
--[Final Project](https://bunnygirlevi.github.io/cs81/Final Project)
+-[Final Project](https://bunnygirlevi.github.io/cs81/Final%20Project)
